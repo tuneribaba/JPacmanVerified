@@ -1,7 +1,5 @@
 package org.jpacman.test.framework.ui;
 
-import static org.junit.Assert.*;
-
 import java.awt.event.KeyEvent;
 import java.lang.reflect.Constructor;
 
@@ -9,7 +7,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.jpacman.framework.ui.IPacmanInteraction;
 import org.jpacman.framework.ui.MainUI;
-import org.jpacman.framework.ui.PacmanInteraction;
 import org.jpacman.framework.ui.PacmanKeyListener;
 
 public class PacmanKeyListenerTest {
