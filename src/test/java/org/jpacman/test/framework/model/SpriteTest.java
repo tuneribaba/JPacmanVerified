@@ -96,6 +96,16 @@ public class SpriteTest {
 		john.deoccupy();
 		assertNull(john.getTile());
 	}
+	
+	@Test
+	public void testGetSpriteType() {
+		assertEquals(SpriteType.OTHER, john.getSpriteType());
+	}
+	
+	@Test
+	public void testToString() {
+		assertEquals("OTHER occupying [0,0]", john.toString());
+	}
 
 	/**
 	 * @param expected
