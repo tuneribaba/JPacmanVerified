@@ -286,6 +286,16 @@ public class GameTest {
 	protected Tile tileAt(Game g, int x, int y) {
 		return g.getBoard().tileAt(x, y);
 	}
+	
+	@Test 
+	public void testWon() throws FactoryException {
+		Game g = makePlay("P.. ");
+		g.movePlayer(Direction.RIGHT);
+		assertFalse(g.won());
+		
+		g.movePlayer(Direction.RIGHT);
+		assertTrue(g.won());
+	}
 
 	
 	
