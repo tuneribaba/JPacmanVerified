@@ -2,14 +2,12 @@ package org.jpacman.test.framework.model;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.not;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertThat;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import org.hamcrest.BaseMatcher;
 import org.hamcrest.Description;
 import org.hamcrest.Matcher;
+import org.jpacman.framework.model.IBoardInspector.SpriteType;
 import org.jpacman.framework.model.Sprite;
 import org.jpacman.framework.model.Tile;
 import org.junit.Before;
