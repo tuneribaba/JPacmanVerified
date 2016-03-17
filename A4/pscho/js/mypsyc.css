@@ -1,0 +1,323 @@
+body {
+	margin: 0px;
+	font-family: tahoma, homa, arial, helvetica, serif;
+	font-size: 12px;
+	background-color: white;
+	color: #333333;
+}
+
+.psychoed {
+	color: black;	
+	border: 1px solid #F93;
+	background-color: #EEE; 
+	padding: 2px 8px;
+	display: inline;
+	margin: 0px;
+}
+
+div.psychoed {
+	display: block;
+	padding: 10px 10px;		
+}
+
+div.psychoedContainer {
+	color: black;	
+	padding: 0px; 	
+}
+
+select {
+	visibility: visible;
+}
+
+#addImage select {
+	visibility: visible;
+}
+
+.SideBarDivR a{
+	color: #039;
+}
+
+.SideBarDivR a:hover{
+	color: #06C;
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+}
+
+a:visited {
+
+}
+
+a:hover {
+	color: #FF7F50; 
+}
+
+
+.SideBarDivL a{
+	color: #039;
+}
+
+.SideBarDivL a:hover{
+	color: #930;
+}
+
+img {
+	border-width: 0px;
+}
+
+span.psychoed {
+	position: relative;
+	z-index: 2;
+}
+
+.psychoed input {
+	padding: 0px 1px 1px 1px;
+	background-color: #ECEAE0;
+	border: 1px solid #666;
+	color : #333;
+	font-family: "Courier New", monospace;
+	font-size: 1.12em;
+}
+
+input.inputText {
+	margin-bottom: 2px;
+}
+
+.psychoed select {
+	background-color: #ECEAE0;
+	font-family: "Courier New", monospace;
+	font-size: 1.12em;
+	border: 1px solid #666;
+}
+
+.psychoed a, .psychoedSpan a	{ 
+	color: #03F; 
+}
+
+.psychoed a:hover, .psychoedSpan a:hover { 
+	color: #F60; 
+}
+
+fieldset {
+	padding: 0px 10px 5px 10px;
+	margin: 1px 3px;
+	line-height: 150%;
+	background-color: #EEE; 
+}
+
+.SideBarDivR fieldset, .SideBarDivL fieldset {
+	padding: 0px 5px 10px 5px;
+}
+
+legend {
+	margin-bottom: 0px;
+}
+
+input.checkBox {
+	border-width: 0px;
+	background-color: transparent; 
+}
+
+div.BRdiv {
+	margin: 5px 0px;
+}
+
+a.pick {
+	color: #F90;
+}
+
+.dot {
+	font-size: 1em; 
+	color: #F60;
+	padding: 0px 5px;
+}
+
+a.helpA {
+	padding: 2px;
+	cursor: help;
+	color: #03F; 
+}
+
+.note {
+	font-weight: bold;
+	color: #900;
+}
+
+.hint {
+	font-weight: bold;
+	color: #060;
+}
+
+.psychoed textarea {
+	background-color: #F3F3F3;
+	font-family: "Courier New", monospace;
+	font-size: 1.12em;
+	border: 1px solid #666;
+	color: black;
+	padding: 0px 2px;
+}
+
+.psychoed button {
+	font-size: 1em;
+	font-family: tahoma, serif;
+	margin: 5px 0px;
+	background-color: #E0E9EF;
+	border: 1px solid #333;
+	color: black;
+	padding: 0px 5px;
+}
+
+.PsycHoCommander {
+	font-size: 1em;
+	margin: 0px;
+	background-color: #DDD;
+	border: 1px solid #C60;
+	padding: 2px 3px;
+	text-align: center;
+}
+
+.PsycHoCommander a	{ 
+	color: #039; 
+}
+
+.PsycHoCommander a:hover { 
+	color: #930; 
+}
+
+a.ColByNames{
+	color: #333;
+}
+
+a.ColByNames:hover {
+	color: #EEE;
+}
+
+.SideDefaultDivClass {
+	text-align: center; 
+	border: 1px solid #666; 
+	padding: 5px 10px 8px 10px; 
+	line-height: 150%;
+	background-color: #CCC; 
+	background-position: top center; 
+	color: #333;
+}
+
+.SideTitleClass {
+	color: black;
+	font-style: normal; 
+	border-bottom: 0px solid #333; 
+	margin-bottom: 3px;
+}
+
+.floatBox { 
+	border: 0px solid #F30; 
+	background-color: #F9F9F9; 
+}
+
+.FBCont {
+	border: 1px solid #F30; 
+	background-color: #F9F9F9; 
+}
+
+.floatBox fieldset {
+	background-color: #F9F9F9; 
+}
+
+.floatBox .psychoed {
+	border-width: 0px;
+	background-color: transparent;	
+}
+
+.SideDefaultDivClass img{
+	margin-top: 2px;
+}
+
+#Grannie {
+	display: none; 
+	width: 720px; 
+	text-align: left; 
+	margin-top: 25px; 
+	font-size: 0.88em;
+}
+
+.psychoedSpan {
+	position: relative;
+	z-index: 2;
+	top: 1px;
+	padding: 1px 8px 2px 8px;		
+	color: black;	
+	border: 1px solid #F93;
+	background-color: #EEE;
+	direction : rtl;
+	margin: 0px;	
+	text-align: right;
+}
+
+ul {
+	padding: 0px 20px;
+}
+
+.AnECPCell {
+	float: left;
+	width: 14px;
+	height: 60px;
+	margin: 0px 3px;
+	padding: 0px;
+}
+
+.AnECPCell .inputAVal {
+	color: black;
+	display: none;
+}
+
+.AnECPCell .ECPCellcell {
+	width: 14px;
+	height: 50px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+div #wheel {
+	margin: 10px;
+	position: relative; 
+	width: 533px; 
+	height: 257px; 
+}
+
+input.ECP_inp {
+	padding: 0px 1px 1px 1px;
+	background-color: #ECEAE0;
+	border: 1px solid #666;
+	color : #333;
+	font-family: "Courier New", monospace;
+	font-size: 9pt;
+}
+
+table {
+	font-size: 1em;
+}
+
+div.clearEr {
+	clear: both;
+	width: 100%;
+	font-size: 1px;
+	height: 1px;
+}
+
+.psychoedSpan a:visited, .psychoed a:visited {
+	color: blue;
+}
+
+.psychoedSpan a:hover, .psychoed a:hover {
+	color: #FF7F50; 
+}
+
+#ColorPickerNamPart a:visited {
+	color: #333;
+}
+
+#ColorPickerNamPart a:hover {
+	color: #CCC;
+}

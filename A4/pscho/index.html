@@ -1,0 +1,1420 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en-us" />
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+<meta name="author" content="Aideen Nasiri Shargh [http://i.horm.org]" />
+<meta name="description" content="PsycHo: a free blog template designer" />
+<meta name="keywords" content="psycho, blog, weblog, temp, template, generator, free, download, design, designer, generator, blogger" />
+<meta name="robots" content="all" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<link rel="copyright" href="http://www.gnu.org/licenses/gpl.html" />
+<link rel="icon" type="image/gif" href="barimg/i_psychic.gif" />
+<link rel="stylesheet" type="text/css" href="js/mypsyc.css" />
+<title>PsycHo: Free Template Generator</title>
+<script type="text/javascript" language="javascript" src="js/extra.js"></script>
+<script type="text/javascript" language="javascript" src="js/kines.js"></script>	
+<script type="text/javascript" language="javascript" src="js/doDuty.js"></script>
+<script type="text/javascript" language="javascript" src="js/writer.js"></script>	
+<script type="text/javascript" language="javascript" src="js/helpNow.js"></script>	
+<script type="text/javascript" language="javascript" src="js/dcmin.js"></script>
+<script type="text/javascript" language="javascript" src="js/translation.js"></script>
+<script type="text/javascript" language="javascript" src="js/ecp.js"></script>
+</head>
+<!-- ======================================== body ======================================== -->
+
+<body 
+onload="fixitnow();" 
+onunload="sayGoodbyeToItAll();">
+
+<center>
+<form name="PsycHoForm" action="">
+
+<!-- ======================================== unCns ======================================== -->
+<div style="display: none" id="unCns">
+<input id="_R_boxNumForce" type="text" value="" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+<input id="_L_boxNumForce" type="text" value="" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</div>
+<div id="darkMoon" onmouseup="captureMousedown(event);" style="background: black url('images/dotbg.gif'); position: absolute; top: 0px; left: 0px; z-index: 3; width: 100%; height: 100%; display: none;">
+</div>
+
+<!-- ======================================== Grannie ======================================== -->
+<noscript>
+<div style="margin-top: 200px; width: 500px; line-height: 150%; text-align: left;">
+<a href="http://psyc.horm.org" style="font-size: 2em" ><b>PsycHo</b></a> is a weblog template generator which is a single Dynamic
+HTML page.<br />
+Unfortunately your browser doesn't support JavaScript but PsycHo needs it, indeed! <br />
+You'll better enable it in your	browser's preferences options and then reload this page.	
+<br /><br />
+<div style="text-align: right; padding: 0px 100px">
+Thanks.<br />
+--<a href="http://i.horm.org">Aideen</a>
+</div>
+</div>
+</noscript>
+<div id="Grannie">
+<script language="javascript" type="text/javascript">dg('Grannie').style.display = 'block';</script>
+<!-- 
+<div id="jj" style="border: 2px solid red"></div>
+-->
+<!-- ======================================== BasicSetting ======================================== -->
+<div class="psychoedContainer" id="ContainerBasicSettings">
+<span class="psychoed" id="SHBasicSettings" style="border-bottom-color: #EEE; position: relative; top: 0px;">
+<a href="#PsycHo!" id="SHBasics" onclick="doDuty(this);">Hide Basic Settings</a>
+</span>
+<div id="BasicSettings" class="connected" style="display: block;">
+<div class="psychoed" style="margin-top: 2px; padding: 5px 8px 10px 8px;">
+<table width="100%"><tr valign="top">
+<td width="30%">
+<fieldset style="padding-bottom: 5px;">
+<legend><script language="javascript" type="text/javascript">w_help('PsycHo', 'PsycHo');</script></legend>	
+<table width="100%;">
+<tr><td colspan="2">
+<div>
+&nbsp;&nbsp;&nbsp;Welcome To <a href="http://psyc.horm.org/faq/#about" title="About PsycHo">PsycHo</a>, the 
+<a href="http://psyc.horm.org/faq/#free" title="Why Free?!">Free</a>
+weblog template generator by 
+<a href="http://i.horm.org" title="Aideen's homepage">Aideen</a>.
+Here, you can generate your blog's template without any require to HTML knowledge; even in
+<a href="http://psyc.horm.org/fa/" title="PsycHo in Farsi">Farsi</a> language!
+<div class="Enhanced">						
+&nbsp;&nbsp;&nbsp;Click on the blue question mark
+(<a href="#PsycHo!" class="helpA" title="What is help?" onclick="ShowHelp('help', event)">?</a>)
+for particular help or use
+<a href="http://psyc.horm.org/faq/">FAQ</a>.								
+<br />
+&nbsp;&nbsp;&nbsp;It's recommended to use
+<a href="http://www.mozilla.org/products/firefox/">FireFox</a> browser for working with PsycHo.
+</div>
+</div>
+</td></tr>
+</table>
+</fieldset>		
+<div class="Enhanced">
+<fieldset style="padding: 0px 5px 6px 5px; margin-top: 4px;" id="IE_Spec_drama">
+<legend><script language="javascript" type="text/javascript">w_help('PsycHodrama [the Key]', 'PsycHodrama');</script></legend>
+&nbsp;&nbsp; <!-- <span class="dot">&#8226;</span> -->
+<a id="PsycHodramaSHer" href="#PsycHo!" onclick="doDuty(this, event);">
+<img width="16" height="16" src="barimg/i_load.gif" style="position: relative; top: 3px" />&nbsp;
+Load/Get</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a id="PsycHodramaSaver" href="#PsycHo!" onclick="doDuty(this, event);">
+<img width="16" height="16" src="barimg/i_save.gif" style="position: relative; top: 3px" />&nbsp;
+Save the key</a>			
+<br />					
+</fieldset>
+</div>					
+<fieldset style="padding: 0px 5px 6px 5px; margin-top: 3px;" id="IE_Spec_kines">
+<legend><script language="javascript" type="text/javascript">w_help('PsycHokinesis [HTML Code]', 'PsycHokinesis');</script></legend>
+&nbsp;<!--<span class="dot">&#8226;</span>-->&nbsp;<a id="PsycHokinesisShower" href="#PsycHo!" onclick="doDuty(this, event);">
+<img width="16" height="16" src="barimg/i_psychic.gif" style="position: relative; top: 1px" />&nbsp;					
+Get Code</a><br />					
+</fieldset>				
+</td><td width="35%">
+<fieldset style="padding: 0px 5px 8px 5px;">
+<legend><script language="javascript" type="text/javascript">w_help('PsycHopatheds');</script></legend>
+<div style="line-height: 200%;">
+&nbsp;<span class="dot">&#8226;</span>
+<a id="ChangeViewSimpleEnhanced" href="#PsycHo!" onclick="doDuty(this);">Minimize features</a>
+<script language="javascript" type="text/javascript">w_help('', 'Minimize features');</script><br />
+<div class="Enhanced">
+&nbsp;<span class="dot">&#8226;</span>&nbsp;<a href="#PsycHo!" id="HideAllPsychoed" 	onclick="doDuty(this);">Hide All PsycHopatheds</a>
+<script language="javascript" type="text/javascript">w_help('', 'Hide All PsycHopatheds');</script><br />
+</div>
+</div>					
+</fieldset>
+<fieldset style="margin-top: 4px">
+<legend><script language="javascript" type="text/javascript">w_help('Your Blog\'s', 'Your Blog Informations');</script></legend>
+<table cellspacing="3">
+<tr><td><script language="javascript" type="text/javascript">w_help('Provider', 'Blog Provider');</script>:&nbsp;&nbsp;&nbsp;<span style="padding-right: 30px"></span></td><td>
+<select id="WholeProvider" onchange="doDuty(this);">
+<option value="blogger" selected="selected">Blogger</option>
+<option value="persianblog">PersianBlog</option>
+<option value="blogfa">BlogFa</option>
+<!--						
+<option value="blogsky">BlogSky</input>
+<option value="mihanblog">MihanBlog</input>				
+-->						
+</select>	
+</td></tr>				
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Site Description');</script>:&nbsp;</td><td>
+<input id="WholeDescription" size="14" type="text" class="inputText" value="" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>	
+</td></tr>
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Site Keywords');</script>:</td><td>
+<input id="WholeKeywords" size="14" type="text" class="inputText" value="keyword1, keyword2, keyword3" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>	
+</td></tr>
+</table>								
+</fieldset>
+<fieldset style="padding-bottom: 8px; margin-top: 3px;">
+<legend><script language="javascript" type="text/javascript">w_help('Whole Page\'s', 'Whole the page');</script></legend>
+<table cellpadding="2">
+<tr><td><script language="javascript" type="text/javascript">w_help('Page Title');</script>:<span style="padding-right: 28px"></span></td><td>
+<input id="WholePageTitle" size="14" type="text" class="inputText" value="PsycHo: Free Template Generator" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>					
+</td></tr>				
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Width Unit');</script>:</td><td>
+<table cellpadding="0" cellspacing="0"><tr><td>
+<input id="WholeWidthUnitErPixels" name="WholeWidthUnitEr" class="checkBox" type="radio" checked="checked" 
+onclick="doDuty(this);"></input></td><td><script language="javascript" type="text/javascript">w_selRadio('WholeWidthUnitErPixels', 'Pixels');</script></td><td style="padding-left:5px">
+<input id="WholeWidthUnitErPercent" name="WholeWidthUnitEr" class="checkBox" type="radio" 
+onclick="doDuty(this);"></input></td><td><script language="javascript" type="text/javascript">w_selRadio('WholeWidthUnitErPercent', 'Percent');</script>
+</td></tr></table>						
+</td></tr>
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Width Value');</script>:</td><td>
+<select id="WholeWidthValueErPixels" onchange="doDuty(this);">
+<option value="600px">600 px</option>
+<option value="680px">680 px</option>
+<option value="720px" selected="selected">720 px</option>
+<option value="760px">760 px</option>
+<option value="800px">800 px</option>
+<option value="840px">840 px</option>						
+<option value="880px">880 px</option>
+<option value="920px">920 px</option>
+<option value="960px">960 px</option>
+</select>	
+<select style="display: none" id="WholeWidthValueErPercent" onchange="doDuty(this);">					
+<option value="50%">50 %</option>
+<option value="60%">60 %</option>
+<option value="70%">70 %</option>
+<option value="75%">75 %</option>
+<option value="80%">80 %</option>
+<option value="85%">85 %</option>
+<option value="90%" selected="selected">90 %</option>
+<option value="95%">95 %</option>
+</select>	
+</td></tr>	
+</table>				
+</fieldset>
+</td><td>
+<fieldset style="padding: 0px 8px 7px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Body Background');</script></legend>
+<div id="WholeBackgroundIsColor" style="display: block;"><table>
+<tr><td><script language="javascript" type="text/javascript">w_help('Color');</script>:</td><td>
+<script language="javascript" type="text/javascript">w_colorInp('WholeBackColorEr', 'white', 7);</script>
+</td><td><span style="padding-right: 10px"></span><script language="javascript" type="text/javascript">w_help('Image', 'Body Background Image');</script>:</td><td>
+<input id="WholeBackHasImage" class="checkBox" type="checkbox" onclick="doDuty(this);"></input>
+</td></tr>						
+</table></div>
+<div id="WholeBackImageEr">
+<fieldset style="padding: 0px 0px 5px 10px;">
+<legend><script language="javascript" type="text/javascript">w_help('Image', 'Body Background Image Box');</script></legend>
+<table cellpadding="1">
+<tr><td><script language="javascript" type="text/javascript">w_help('URL', 'Image URL');</script>:</td><td>
+<input id="WholeBackTextureEr" disabled="disabled" size="13" type="text" class="inputText" value="http://" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td></tr>
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Repeat', 'Image Repeat');</script>:</td><td>
+<select id="WholeBackRepeat" disabled="disabled" onchange="doDuty(this);">
+<option value="repeat" selected="selected">Repeat</option><option value="repeat-x">Repeat-X</option>
+<option value="repeat-y">Repeat-Y</option><option value="no-repeat">No-Repeat</option>
+</select>
+</td></tr>
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Attachment', 'Image Attachment');</script>:</td><td>					
+<select id="WholeBackAttachment" disabled="disabled" onchange="doDuty(this);">
+<option value="scroll" selected="selected">Scroll</option><option value="fixed">Fixed</option>
+</select>
+</td></tr>
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Position', 'Image Position');</script>:</td><td>
+<select id="WholeBackPosition" disabled="disabled" onchange="doDuty(this);">
+<option value="top left">Top Left</option><option value="top center" selected="selected">Top Center</option>
+<option value="top right">Top Right</option><option value="bottom left">Bot Left</option>
+<option value="bottom center">Bot Center</option><option value="bottom right">Bot Right</option>							
+</select>
+</td></tr>
+</table>
+</fieldset>
+</div>
+</fieldset>		
+<fieldset style="margin-top: 3px; ">
+<legend><script language="javascript" type="text/javascript">w_help('Links', 'Whole Links');</script></legend>
+<table width="100%" cellpadding="1">
+<tr><td><script language="javascript" type="text/javascript">w_help('HyperLink Color');</script>:</td><td>
+<script language="javascript" type="text/javascript">w_colorInp('WholeLinkColorEr', 'blue', 7);</script>
+</td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('RollOver Color');</script>:</td><td>
+<script language="javascript" type="text/javascript">w_colorInp('WholeLinkHoverEr', 'coral', 7);</script>
+</td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Visiteds Color');</script>:</td><td>
+<script language="javascript" type="text/javascript">w_colorInp('WholeLinkVisitEr', 'navy', 7);</script>
+</td>
+</tr>									
+</table>
+</fieldset>	
+<div style="display: none">
+<div id="WholeColorCSS_Link"></div>
+<div id="WholeColorCSS_Hover"></div>
+<div id="WholeColorCSS_Visit"></div>				
+</div>
+</td></tr></table>				
+</div>
+</div></div>
+
+<!-- ======================================== colorPicker ======================================== -->
+<div class="psychoedContainer" style="margin: 0px;">
+<table cellpadding="0" cellspacing="0" onmouseup="DontHideCP();"
+id="ColorPicker" style="display: none; position: absolute; z-index: 10; top: 500px; width: 670px; margin: 0px 50px;">
+<tr><td colspan="2" rowspan="2" class="FBCont">
+<div class="connected">
+<div class="floatBox">
+<div class="psychoed">
+<fieldset>
+<legend>Colors List for <span id="CPwutProp"></span>&nbsp;of 	<a id="ColorPickerScrollIntoEr" href="#PsycHo!" onclick="doDuty(this);"><span id="CPwutObj"></span>	</a>&nbsp;<a href="#PsycHo!" onclick="HideCP();">[Dismiss]</a>
+</legend>
+<table width="100%" style="margin-top: 4px"><tr><td>
+<input id="ColorPickerByHueEr" name="ColorPickerHueSat" class="checkBox" type="radio" checked="checked" onclick="doDuty(this);"></input><script language="javascript" type="text/javascript">w_help('By Hue/Saturation', 'Colors List By Hue/Saturation', 'ColorPickerByHueEr');</script>
+<input id="ColorPickerByNamEr" name="ColorPickerHueSat" class="checkBox" type="radio" onclick="doDuty(this);"></input><script language="javascript" type="text/javascript">w_help('By 	Standard Names', 'Colors List By Standard Names', 'ColorPickerByNamEr');</script>
+<input id="ColorPickerMakerEr" name="ColorPickerHueSat" class="checkBox" type="radio" onclick="doDuty(this);"></input><script language="javascript" type="text/javascript">w_help('Color Maker', 'Color Maker', 'ColorPickerMakerEr');</script>
+</td><td style="text-align: right;">
+<a id="ColorPickerMoveUp" href="#PsycHo!" onclick="doDuty(this);">
+<img title="Scroll up" alt="&#8593;" onmouseover="this.src='images/upsingle_.gif'" width="9" height="12" onmouseout="this.src='images/upsingle.gif'" src="images/upsingle.gif" /></a> |
+<a id="ColorPickerMoveDown" href="#PsycHo!" onclick="doDuty(this);">
+<img title="Scroll down" alt="&#8595;" onmouseover="this.src='images/downsingle_.gif'" width="9" height="12" onmouseout="this.src='images/downsingle.gif'" src="images/downsingle.gif" /></a>					
+</td></tr></table>	
+<div id="ColorPickerHuePart" style="display: block; padding: 6px 0px 10px 0px;">
+<fieldset><legend>By Hue</legend>
+<script language="javascript" type="text/javascript">
+WriteColorsByHue();
+</script>
+</fieldset>
+<br />
+<fieldset><legend>By Saturation</legend>
+<script language="javascript" type="text/javascript">
+WriteColorsBySat();
+</script>
+</fieldset>					
+</div>
+<div id="ColorPickerNamPart" style="display: none; padding: 10px 0px">
+<script language="javascript" type="text/javascript">
+WriteColorsByNam();
+</script>
+</div>				
+<div id="ColorPickerMakePart" style="display: none;">
+<div id="SuggestColor" style="display: none">
+<fieldset>
+<legend><script language="javascript" type="text/javascript">w_help('Suggested Colours');</script></legend>
+<div style="clear: both; padding-top: 10px; padding-bottom: 3px; padding-left: 20px;">
+<script language="javascript" type="text/javascript">
+for (var i=1; i<=24; i++)
+w_ECPCellDiv(false, i, name[i]);
+</script>
+</div>
+</fieldset>
+</div>
+<center>
+<table style="font-size: 1em"> 
+<tr><td>
+<div id="wheel"><a onmousemove="javascript:pickColor(); return false;" href="#PsycHo!"><img id="indic" 
+src="images/indic.gif" style="position: absolute; zindex: 2; border-width: 0px;" /><img id="indic_gr" 
+src="images/indic.gif" style="position: absolute; zindex: 2; border-width: 0px;" /><img id="wheelImg"
+style="BORDER: 0px solid red; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/hsvwheel.png', sizingMethod='scale'); WIDTH: 533px; HEIGHT: 257px" 
+src="images/blank.gif"></a></div>
+</td></tr><tr><td valign="top">
+<table>
+<tr><td>
+<table><tr><td>
+<fieldset style="font-size: 8pt; margin-top: 1px; padding: 0px 5px 8px 5px;">
+<legend><script language="javascript" type="text/javascript">w_help('Color', 'Preview ECP Color');</script></legend>
+<div style="padding-top: 6px; text-align: center; margin: 0px 5px;">
+Color:&nbsp;&nbsp; <input style="border-width: 0; background-color: red; height: 19px;" disabled size="7" class="ECP_inp" id="ECP_myColorPrev"></input>
+</div>
+</fieldset>	
+</td></tr><tr><td>
+<fieldset style="font-size: 8pt; margin-top: 0px; padding: 0px 5px 8px 5px;">
+<legend><script language="javascript" type="text/javascript">w_help('RGB Value', 'ECP RGB Value');</script></legend>
+<div style="padding-top: 4px; text-align: center; margin: 0px 5px;">
+Value:&nbsp;&nbsp; <input size="7" class="ECP_inp" id="ECP_myRGBS" onclick="javascript: resetByRGBS(this.value);" onkeyup="javascript: resetByRGBS(this.value);"></input>
+</div>
+</fieldset>	
+</td></tr></table>
+</td><td>							
+<div style="margin-top: 0px">
+<fieldset style="font-size: 8pt; padding-bottom: 10px; margin-right: 5px;">
+<legend><script language="javascript" type="text/javascript">w_help('HSV Adjustment');</script></legend>
+<table style="font-size: 8pt; margin-top: 3px; line-height: 190%;" cellpadding="1" cellspacing="1">
+<script type="text/javascript" language="javascript">
+w_ECP_element('H', 'Hue'); w_ECP_element('S', 'Saturation'); w_ECP_element('V', 'Value');
+</script>
+</table>
+</fieldset>
+</div>
+</td><td>
+<div style="margin-top: 0px">
+<fieldset style="font-size: 8pt; padding-bottom: 10px;">
+<legend><script language="javascript" type="text/javascript">w_help('RGB Adjustment');</script></legend>
+<table style="font-size: 8pt; margin-top: 3px; line-height: 190%;" cellpadding="1" cellspacing="1">
+<script type="text/javascript" language="javascript">
+w_ECP_element('R', 'Red'); w_ECP_element('G', 'Green');	w_ECP_element('B', 'Blue');
+</script>
+</table>
+</fieldset>
+</div>
+</td></tr></table>							
+</td></tr>
+</table>
+</center>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</td><td width="25px" height="10px">&nbsp;</td></tr>
+<tr><td width="25px" height="200px" style="background-image: url('images/dotbg.gif');">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="670px" style="background-image: url('images/dotbg.gif');" colspan="2">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="660px">&nbsp;</td><td width="25px" >&nbsp;</td></tr>
+</table>
+</div>
+
+<!-- ======================================== helpBox ======================================== -->
+<div id="helpBoxContainer" class="psychoedContainer" style="margin: 0px;" >
+<table cellpadding="0" cellspacing="0" ondblclick="HideHelp();" onmouseup="DontHideHelp();"
+id="helpBox" style="display: none; position: absolute; z-index: 20; top: 500px; width: 305px">
+<tr><td colspan="2" rowspan="2" class="FBCont">
+<div class="connected">
+<div class="floatBox">
+<div class="psychoed" style="padding-top: 6px">
+<fieldset>
+<legend><span id="helpBoxLegend" style="font-weight: bold"></span>
+&nbsp;<a href="#PsycHo!" onclick="HideHelp();">[Dismiss]</a>
+</legend>
+<div id="helpBoxInner" style="padding-bottom: 5px">
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</td><td width="10px" height="1px">&nbsp;</td></tr>
+<tr><td width="10px" height="65px" style="background-image: url('images/dotbg.gif');">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="295px" style="background-image: url('images/dotbg.gif');" colspan="2">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="285px">&nbsp;</td><td width="10px">&nbsp;</td></tr>
+</table>
+</div>
+
+<!-- ======================================== addImage ======================================== -->
+<div class="psychoedContainer" style="margin: 0px;" >
+<table cellpadding="0" cellspacing="0" 	id="addImage" onmouseup="DontHideAddImg();"
+style="display: none; position: absolute; z-index: 8; top: 500px; margin: 0px 50px;">
+<tr><td colspan="2" rowspan="2" class="FBCont">
+<div class="connected">
+<div class="floatBox">
+<div class="psychoed">
+<fieldset style="padding: 0px 5px 5px 5px;">
+<legend><span id="addImageLegend"></span>
+&nbsp;<a href="#PsycHo!" onclick="HideAddImage();">[Dismiss]</a>
+</legend>
+<div id="addImageInner" style="padding-bottom: 3px">
+<table width="100%"><tr><td width="50%">				
+<fieldset style="padding: 0px 5px 8px 5px;">
+<legend>Image</legend>
+<table>
+<tr><td><script language="javascript" type="text/javascript">w_help('Address', 'Image Address');</script>:&nbsp;</td><td>
+<input id="AddImageImageIAddress" size="12" type="text" class="inputText" value="" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>	
+</td></tr>
+<tr><td><script language="javascript" type="text/javascript">w_help('Alt Text', 'Image Alternative Text');</script>:&nbsp;</td><td>
+<input id="AddImageImageIAlt" size="12" type="text" class="inputText" value="" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>	
+</td></tr>
+</table>
+</fieldset>
+</td><td width="50%">
+<fieldset style="padding: 0px 5px 5px 5px">
+<legend>Border</legend>
+<script language="javascript" type="text/javascript">w_border('AddImage', '');</script>
+</fieldset>
+<img style="display: none" id="AddImageImageI" src="" alt="" />
+</td></tr></table>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</td><td width="15px" height="10px">&nbsp;</td></tr>
+<tr><td width="15px" height="100px" style="background-image: url('images/dotbg.gif');">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="470px" style="background-image: url('images/dotbg.gif');" colspan="2">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="460px">&nbsp;</td><td width="15px" >&nbsp;</td></tr>
+</table>
+</div>
+
+<!-- ======================================== PsycHokinesis ======================================== -->
+<div class="psychoedContainer" style="margin: 0px; ">
+<table cellpadding="0" cellspacing="0" onmouseup="DontHideKines();"
+id="PsycHokinesisBox" style="display: none; position: absolute; z-index: 6; top: 250px; margin: 0px 40px;">
+<tr><td colspan="2" rowspan="2" class="FBCont">
+<div class="connected">
+<div class="floatBox">
+<div class="psychoed">
+<fieldset>
+<legend>&nbsp;<span id="PsycHokinesisLegend" style="font-weight: bold">PsycHokinesis [HTML Code]</span>
+&nbsp;<a href="#PsycHo!" onclick="HidePsycHokinesis();">[Dismiss]</a>
+</legend>
+<div id="PsycHokinesisInner" style="padding-bottom: 10px">
+<fieldset style="padding: 2px 15px 10px 15px">
+<legend> Current PsycHokinesis </legend>
+<input id="AgreeTOSForPsycHokinesis" class="checkBox" type="checkbox" style="margin: 1px 0px;" onclick="doDuty(this);"></input>
+I've read 
+<a href="#PsycHo!" class="helpA" style="font-size: 1em" title="Term Of Service" onclick="ShowHelp('Term Of Service', event)">Term of Service</a>
+and agree them. just gimme the Code!
+<div id="PsycHokinesisAlertDiv" style="border: 1px solid #F30; background: #FFF; padding: 10px 20px; margin: 10px 0px;">
+<b>Following errors/warnings occured while creating your template:</b>
+<div id="PsycHokinesisAlertInner" style="padding: 0px 15px">
+</div>
+</div>
+<br /><br />
+<div><textarea id="PsycHokinesisGetEr" style="color: #666;" wrap="off" rows="15" cols="80" disabled="disabled" onfocus="javascript: this.select();"></textarea>
+<script type="text/javascript" language="javascript">document.getElementById('PsycHokinesisGetEr').setAttribute("wrap", "off"); //for w3c validation</script>
+</div>
+<table width="100%"><tr><td style="text-align: left">
+<button id="PsycHokinesisGetButton" style="color: #666; width: 150px" type="button" onclick="doDuty(this);" disabled="disabled">Get PsycHokinesis</button>
+</td><td style="text-align: right">
+<button id="PsycHokinesisPreviewButton" style="color: #666; width: 150px" type="button" onclick="doDuty(this);" disabled="disabled">Preview HTML</button>	
+</td></tr></table>
+</fieldset>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</td><td width="15px" height="10px">&nbsp;</td></tr>
+<tr><td width="15px" height="200px" style="background-image: url('images/dotbg.gif');">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="600px" style="background-image: url('images/dotbg.gif');" colspan="2">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="590px">&nbsp;</td><td width="15px" >&nbsp;</td></tr>
+</table>
+</div>
+
+
+<!-- ======================================== PsycHodrama ======================================== -->
+<div class="psychoedContainer" style="margin: 0px; ">
+<table cellpadding="0" cellspacing="0" onmouseup="DontHideDrama();"
+id="PsycHodramaBox" style="display: none; position: absolute; z-index: 5; top: 250px; margin: 0px 40px; " >
+<tr><td colspan="2" rowspan="2" class="FBCont">
+<div class="connected">
+<div class="floatBox">
+<div class="psychoed">
+<fieldset>
+<legend>&nbsp;<span id="PsycHodramaLegend" style="font-weight: bold">PsycHodrama [the key]</span>
+&nbsp;<a href="#PsycHo!" onclick="HidePsycHodrama();">[Dismiss]</a>
+</legend>
+<div id="PsycHodramaInner" style="padding-bottom: 10px">
+<div style="padding: 5px 15px; display: none;">
+<span class="note">Note:</span> Depending on your browser and PsycHodrama's complexity these 
+operations may freeze your PC, up to 3 minutes. Be patient and don't try to break anything ;)
+</div>
+<fieldset style="padding-bottom: 10px">
+<legend> Current PsycHodrama </legend>
+<div class="BRdiv"></div>
+<button id="PsycHodramaGetButton" type="button" style="width: 150px" onclick="doDuty(this);">Get Current PsycHodrama</button>
+<div><textarea wrap="off" id="PsycHodramaGetEr" rows="1" cols="80" style="background-color: #F0EEE6; color: #333" readonly="readonly"></textarea>
+</div>
+</fieldset>
+<br />
+<fieldset>
+<legend> Load PsycHodrama </legend>
+<div class="BRdiv"></div>
+<div><textarea wrap="off" id="PsycHodramaPutEr" rows="1" cols="80" 
+onmousedown="if (this.value.charAt(0) == '[') { this.value =''; this.focus(); }"></textarea>
+</div>
+<table width="100%"><tr><td>
+<button id="PsycHodramaLoadButton" type="button" style="width: 150px" onclick="doDuty(this);">Apply This PsycHodrama</button>&nbsp;&nbsp;
+<!--
+<button id="PsycHodramaResetButton" type="button" width="150px" onclick="doDuty(this);">Clear</button>
+-->
+</td>
+<td style="text-align: right">
+<button id="PsycHodramaDefaultButton" type="button" style="width: 150px" onclick="doDuty(this);">Default PsycHodrama</button>	
+</td></tr></table>
+<div class="BRdiv"></div>
+</fieldset>
+</div>
+</fieldset>
+</div>
+</div>
+</div>
+</td><td width="15px" height="10px">&nbsp;</td></tr>
+<tr><td width="15px" height="180px" style="background-image: url('images/dotbg.gif');">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="600px" style="background-image: url('images/dotbg.gif');" colspan="2">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="590px">&nbsp;</td><td width="15px" >&nbsp;</td></tr>
+</table>
+</div>
+
+<!-- ======================================== EditPartBox ======================================== -->
+<div class="psychoedContainer" style="margin: 0px; ">
+<table cellpadding="0" cellspacing="0" onmouseup="DontHideEditPart();"
+id="EditPartBox" style="display: none; position: absolute; z-index: 7; top: 250px; margin: 0px 40px;">
+<tr><td colspan="2" rowspan="2" class="FBCont">
+<div class="connected">
+<div class="floatBox">
+<div class="psychoed">
+<fieldset style="padding: 0px 10px 10px 10px">
+<legend>&nbsp;Edit Part #<span id="EditPartLegendN" style="font-weight: bold"></span>
+of Side <span id="EditPartLegendS" style="font-weight: bold"></span>
+&nbsp;<a href="#PsycHo!" onclick="HideEditPartBox();">[Dismiss]</a>
+</legend>
+<script language="javascript" type="text/javascript">
+<!--
+for (var i=0; i<maxBoxNumOnSides; i++)
+w__EditPartTheDiv('R', i);
+for (var i=0; i<maxBoxNumOnSides; i++)
+w__EditPartTheDiv('L', i);
+// -->
+</script>
+</fieldset>
+</div>
+</div>
+</div>
+</td><td width="15px" height="10px">&nbsp;</td></tr>
+<tr><td width="15px" height="160px" style="background-image: url('images/dotbg.gif');">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="600px" style="background-image: url('images/dotbg.gif');" colspan="2">&nbsp;</td></tr>
+<tr><td width="10px">&nbsp;</td><td width="590px">&nbsp;</td><td width="15px" >&nbsp;</td></tr>
+</table>
+</div>
+
+
+<!-- ======================================== Header ======================================== -->
+<div id="HeaderPart" style="background-color: #CCC; border: 1px solid #333; margin-bottom: 4px; padding: 5px 40px; margin-top: 30px">
+<div id="HeaderPartText">
+<div id="TitleText" style="font-size: 5em; color: black; margin: 0px;"> <!-- padding: 10px 40px;  -->
+PsycHo
+<!-- <a href="javascript: window.focus();">focus</a> <a href="javascript: window.blur();">blur</a> -->
+</div>
+<div id="SubTitleText" style="font-size: 1.75em; color: #666; margin: 12px 0px;"> <!--  padding: .4em 40px 1.1em 40px; -->
+Your own psychogenesis, Your own template! 
+</div>
+<div class="clearEr"></div>
+</div>
+<div id="HeaderPartImage" style="display:block; text-align: center; "></div>
+</div>
+
+<!-- ======================================== TitleSettings ======================================== -->
+<div class="psychoedContainer" id="ContainerTitleSettings" style="display: block; margin-bottom: 0px; border: 0px dashed red;">
+<span class="psychoed" id="SHTitleSettings">
+<a id="SHTitle" href="#PsycHo!" onclick="doDuty(this);">Show <span style="padding: 0px 10px;">Title</span> Settings</a>
+</span>
+<div id="TitleSetting" class="connected" style="display: none; ">
+<div class="psychoed" style="margin-top: 2px; padding: 5px 8px 10px 8px;">
+<table style="Width: 100%;"><tr valign="top">
+<td width="35%">
+<fieldset id="IE_spec_titleText" style="padding: 0px 10px 7px 10px">
+<legend>Background</legend>
+<table><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Type', 'Background Type');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_tripleBg('Header');</script></td>
+</tr></table>
+<div style="padding-left: 3px">
+<script language="javascript" type="text/javascript">w_tripleBgInner('Header', '#CCC');</script>
+</div>
+</fieldset>					
+<fieldset style="padding: 0px 10px 0px 10px;">
+<legend>Text</legend>
+<table>
+<tr><td><script language="javascript" type="text/javascript">w_help('Title', 'Title Text Input');</script>:</td><td>
+<input id="TitleTextTextEr" type="text" class="inputText" value="PsycHo" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>	
+</td></tr>
+<tr><td><script language="javascript" type="text/javascript">w_help('Description', 'Description Text Input');</script>:&nbsp;</td><td>
+<input id="SubTitleTextTextEr" type="text" class="inputText" 
+value="Your own psychogenesis, Your own template!" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>	
+</td></tr>
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Direction', 'Text Direction');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_doubleDirection('Header');</script></td>
+</tr>
+<tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Align', 'Text Align');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_textAlignTriple('HeaderPartText');</script></td>
+</tr></table>
+</fieldset>		
+</td><td width="34%">
+<fieldset style="padding: 0px 5px 8px 5px;">
+<legend>Font</legend>
+<div class="Enhanced" style="padding: 0px 8px 4px 8px">
+<script language="javascript" type="text/javascript">w_help('Family', 'Font Family');</script>:<span style="padding: 0px 4px"></span>
+<script language="javascript" type="text/javascript">w_fontFamily('HeaderPartText');</script>
+</div>
+<fieldset style="padding: 0px 5px 2px 5px">
+<legend>Title</legend>
+<table width="100%"><tr>
+<td><script language="javascript" type="text/javascript">w_help('Size', 'Font Size');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_fontSize('TitleText', 16, 96, 40);</script></td>
+<td><script language="javascript" type="text/javascript">w_colorInp('TitleColorEr', 'black');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Effect', 'Font Effect');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_fontBIU('TitleText', '&nbsp;', '   ');</script></td>
+</tr></table>
+</fieldset>
+<fieldset style="padding: 0px 5px 2px 5px">
+<legend>Description</legend>
+<table width="100%" cellspacing="1"><tr>
+<td><script language="javascript" type="text/javascript">w_help('Size', 'Font Size');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_fontSize('SubTitleText', 0, 30, 14);</script></td>
+<td><script language="javascript" type="text/javascript">w_colorInp('SubTitleColorEr', '#666');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Effect', 'Font Effect');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_fontBIU('SubTitleText', '&nbsp;', '   ');</script></td>
+</tr></table>
+</fieldset>
+</fieldset>							
+</td>
+<td width="31%">
+<fieldset style="padding: 2px 5px 8px 5px">
+<legend>Border</legend>
+<script language="javascript" type="text/javascript">w_border('Header', '#333', 5, 'Enhanced');</script>
+</fieldset>
+<fieldset style="margin-top: 5px; padding: 2px 5px 8px 5px;">
+<legend>Spacing</legend>
+<table width="100%" cellpadding="2">
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Top Margin', 'Header Top Margin');</script>:</td><td>
+<script language="javascript" type="text/javascript">w_optionInc('HeaderTopMarginEr', 0, 100, 10, 30);</script>
+</td></tr>
+<tr class="Enhanced"><td><script language="javascript" type="text/javascript">w_help('Horizontal Padding', 'Header Horizontal Padding');</script>:
+</td><td>
+<script language="javascript" type="text/javascript">w_optionInc('HeaderHorPaddingEr', 0, 100, 10, 40);</script>
+</td></tr>
+<tr><td><script language="javascript" type="text/javascript">w_help('Vertical Padding', 'Header Vertical Padding');</script>:</td><td>
+<script language="javascript" type="text/javascript">w_optionInc('HeaderVerPaddingEr', 0, 40, 5, 5);</script>
+</td></tr>							
+</table>
+</fieldset>	
+</td>
+</tr></table>
+</div></div>
+</div>
+
+<div id="ColsHeaderSep" style="margin-top: 20px"></div>
+<!-- ======================================== ColsSettings ======================================== -->
+<div class="psychoedContainer" id="ContainerColsSettings" style="display: block; margin-bottom: 0px; border: 0px dashed red;">
+<span class="psychoed" id="SHColumnsSettings">
+<a id="SHCols" href="#PsycHo!" onclick="doDuty(this);">Show Columns Settings</a>
+</span>
+<div id="ColsSetting" class="connected" style="display: none; ">
+<div class="psychoed" style="margin-top: 2px; padding: 5px;">
+<table width="100%"><tr><td>
+
+<fieldset style="padding: 0px 5px 5px 5px;">
+<legend><script language="javascript" type="text/javascript">w_help('Style', 'Columns Style');</script></legend>
+<table width="100%" style=" padding-left: 4%"><tr>
+<td width="1%">	<input name="ColsNumberRadioEr" type="radio" class="checkBox" 
+onclick="doDuty(this)" id="ColsNumberIsOne"></input></td><td width="19%"><script language="javascript" type="text/javascript">	w_selRadio('ColsNumberIsOne', 'One Column');</script></td>
+<td width="1%"><input name="ColsNumberRadioEr" type="radio" class="checkBox" 
+onclick="doDuty(this)" id="ColsNumberIsTwoR"></input></td><td width="27%"><script language="javascript" type="text/javascript">	w_selRadio('ColsNumberIsTwoR', 'Two Column, Main in right');</script></td>
+<td width="1%">	<input name="ColsNumberRadioEr" type="radio" class="checkBox" 
+onclick="doDuty(this)" id="ColsNumberIsTwoL" checked="checked"></input></td><td width="27%"><script language="javascript" type="text/javascript">	w_selRadio('ColsNumberIsTwoL', 'Two Column, Main in left');</script></td>
+<td width="1%"><input name="ColsNumberRadioEr" type="radio" class="checkBox" 
+onclick="doDuty(this)" id="ColsNumberIsThree"></input></td><td width="19%"><script language="javascript" type="text/javascript">	w_selRadio('ColsNumberIsThree', 'Three Column');</script></td>
+</tr></table>
+</fieldset>
+<div>
+<table width="100%"><tr><td width="34%">
+<fieldset>
+<legend>Main Columns' Spacing</legend>
+<table cellpadding="4">
+<tr><td style="padding: 0px 0px">
+<script language="javascript" type="text/javascript">w_help('Width Percentage', 'Main Col Width Percentage');</script>:<span style="padding: 0px 7px"></span> 
+</td><td style="padding: 0px 5px">
+<input id="MainColWidthView" size="3" type="text" class="inputText" value="75" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td><td style="padding: 0px 5px">						
+<script language="javascript" type="text/javascript">w_incDec('MainColWidth');</script>
+</td></tr>
+<tr class="Enhanced"><td>
+<script language="javascript" type="text/javascript">w_help('Padding Pixels', 'Main Col Padding Pixels');</script>: 
+</td><td style="padding: 0px 5px">
+<input id="MainSpcPaddingView" size="3" type="text" class="inputText" value="20" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td><td style="padding: 0px 5px">
+<script language="javascript" type="text/javascript">w_incDec('MainSpcPadding');</script>
+</td></tr>
+</table>
+</fieldset>
+</td><td width="33%">
+<fieldset style="padding-bottom: 9px">
+<legend>Main Column's Background</legend>
+<table cellpadding="0" cellspacing="0" style="line-height: 250%"><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Type', 'Background Type');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_tripleBg('MainColumns');</script></td>
+</tr></table>
+<script language="javascript" type="text/javascript">w_tripleBgInner('MainColumns', '#F6F6F6');</script>
+</fieldset>								
+</td><td width="33%">
+<fieldset>
+<legend>Main Column's Border</legend>
+<script language="javascript" type="text/javascript">w_border('MainColumns', 'black', '', 'Enhanced');</script>
+</fieldset>		
+</td></tr></table>
+</div>
+
+<div id="MainColumnSettingDiv">
+<table width="100%"><tr><td width="34%">
+<fieldset style="padding-left: 5px; padding-right: 5px;">
+<legend>Side Columns' Spacing</legend>
+<table cellpadding="4">
+<tr class="Enhanced"><td>
+<script language="javascript" type="text/javascript">w_help('Distance Percentage', 'Columns Distance Percentage');</script>: 
+</td><td style="padding: 0px 5px">
+<input id="SideSpcWidthView" size="3" type="text" class="inputText" value="1.5" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td><td style="padding: 0px 5px">		
+<script language="javascript" type="text/javascript">w_incDec('SideSpcWidth');</script>
+</td></tr>
+<tr><td>
+<script language="javascript" type="text/javascript">w_help('Padding Pixels', 'Columns Padding Pixels');</script>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</td><td style="padding: 0px 5px">
+<input id="SideSpcPaddingView" size="3" type="text" class="inputText" value="15" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td><td style="padding: 0px 5px">
+<script language="javascript" type="text/javascript">w_incDec('SideSpcPadding');</script>
+</td></tr></table>
+</fieldset>
+</td><td width="33%">
+<fieldset style="padding-bottom: 10px">
+<legend>Side Columns's Background</legend>
+<table cellpadding="0" cellspacing="0" style="line-height: 250%"><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Type', 'Background Type');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_tripleBg('SideColumns');</script></td>
+</tr></table>
+<script language="javascript" type="text/javascript">w_tripleBgInner('SideColumns', '#999');</script>
+</fieldset>							
+</td><td width="33%">
+<fieldset style="padding-bottom: 6px;">
+<legend>Side Columns' Border</legend>
+<script language="javascript" type="text/javascript">w_border('SideColumns', 'black', '', 'Enhanced');</script>
+</fieldset>								
+</td></tr></table>
+</div>
+
+</td></tr></table>
+</div>
+</div>
+
+</div>
+
+<!-- ======================================== Cols ======================================== -->
+<div id="ColsPart" style="border: 0px solid black; margin-bottom: 20px; padding: 0px; margin-top:5px; position: relative; top: -1px; width: 100%;">
+
+<!-- ==================== SideLColumn ==================== -->
+<div class="SideBarDivL" id="SideLColumn" style="width: 23%; display: none; direction: ltr; text-align: left; float: left; margin-right: 1.5%;" >
+<div id="SideLColumnInner" style="padding: 15px 15px 15px 15px; border: 1px solid black; background-position: top center; background-color: #999;">
+<div class="psychoedContainer" id="ContainerSideLSettings" style="display: block; margin-bottom: 5px; border: 0px dashed red;">
+<span class="psychoed" id="SHSideLSettings">
+<a id="SHSideL" href="#PsycHo!" onclick="doDuty(this);">Show L-Side Schema</a>
+</span>
+<div id="SideLSchema" class="connected" style="display: none; ">
+<div class="psychoed" style="margin-top: 2px; padding: 0px 2px 5px 3px;">
+<table width="100%"><tr><td>
+<fieldset style="padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Part Schema', 'Parts Schema');</script></legend>
+<fieldset style="padding-bottom: 1px">
+<legend><script language="javascript" type="text/javascript">w_help('Background');</script></legend>
+<table><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_sideTripleBg('_L_DefaultDiv');</script></td>
+</tr><tr>
+<td colspan="3">
+<script language="javascript" type="text/javascript">w_sideTripleBgInner('_L_DefaultDiv', '#CCC');</script>
+</td>	
+</tr></table>									
+</fieldset>										
+<fieldset style="padding-bottom: 1px">
+<legend><script language="javascript" type="text/javascript">w_help('Border');</script></legend>
+<script language="javascript" type="text/javascript">w_sideBorder('_L_Default', '#666');</script>
+</fieldset>								
+</fieldset>
+
+<fieldset style="margin-top: 5px; padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Part Separator', 'Parts Separator');</script></legend>
+<fieldset>
+<legend><script language="javascript" type="text/javascript">w_help('Height', 'Separator Height');</script></legend>
+<span style="padding-left: 2px"></span>									
+<input id="_L_PartSepHeight" size="3" type="text" class="inputText" value="30" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+<span style="padding-left: 5px"></span>
+<script language="javascript" type="text/javascript">w_incDec('_L_PartSepHeight');</script>
+</fieldset>			
+<fieldset>
+<legend><script language="javascript" type="text/javascript">w_help('Separator Line', 'Separator Line');</script></legend>
+<script language="javascript" type="text/javascript">w_sideBorder('_L_Sep', 'black');</script>
+</fieldset>								
+</fieldset>		
+
+<div class="Enhanced">
+<fieldset style="margin-top: 5px; padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Parts Appearance');</script></legend>							
+<fieldset style="padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Parts Font', 'Font Family');</script></legend>													
+<span style="padding-left: 5px"></span><script language="javascript" type="text/javascript">w_fontFamily('L_PartDiv_0');</script>
+</fieldset>
+<fieldset style="padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Line Height');</script></legend>													
+<span style="padding-left: 12px"></span><script language="javascript" type="text/javascript">w_lineHeight('_L_PartDiv');</script>
+</fieldset>
+</fieldset>								
+</div>							
+</td></tr></table>							
+
+</div></div></div> <!-- psychoed, connected, container -->	
+<div class="psychoedContainer" id="ContainerSideLThemeSettings" style="padding: 0px; margin-top: 8px; margin-bottom: 5px; border: 0px dashed red;">
+<span class="psychoed" id="SHSideLTSettings">
+<a id="SHSideLT" href="#PsycHo!" onclick="doDuty(this);">Show L-Side Theme</a><span style="padding-right: 5px"></span>
+</span>
+<div id="SideLTheme" class="connected" style="display: none; ">
+<div class="psychoed" style="margin-top: 2px; padding: 0px 2px 5px 3px;">
+<table width="100%"><tr><td>		
+<fieldset style="padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Parts Title', 'Parts Title');</script></legend>													
+<fieldset style="padding: 0px 0px 5px 4px;">
+<legend><script language="javascript" type="text/javascript">w_help('Title Font', 'Font');</script></legend>
+<table>
+<tr class="Enhanced"><td>	<span style="padding-left: 0px"></span><script language="javascript" type="text/javascript">w_fontSize('L_Title_0', 0, 24, 8);</script></td></tr>
+<tr><td>	<span style="padding-left: 5px"></span><script language="javascript" type="text/javascript">w_colorInp('_L_TitleColorEr', 'black', 7);</script></td></tr>
+<tr class="Enhanced"><td>&nbsp;<script language="javascript" type="text/javascript">w_fontBIU('L_Title_0', ' ', 'B  ', 'BIU');</script></td></tr>
+</table>
+</fieldset>		
+<fieldset style="padding: 0px 2px 5px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Underline', 'Separator Line Color');</script></legend>
+<script language="javascript" type="text/javascript">w_colorInp('_L_TitleUnderlineEr', '#333', 7);</script>
+</fieldset>					
+</fieldset>
+<fieldset style="margin-top: 5px; padding: 0px 2px 5px 2px;">							
+<legend><script language="javascript" type="text/javascript">w_help('Parts Text', 'Parts Text');</script></legend>			
+<div class="Enhanced">
+<fieldset style="padding-bottom: 0px;">
+<legend><script language="javascript" type="text/javascript">w_help('Text align');</script></legend>
+<script language="javascript" type="text/javascript">w_sideTextAlignTriple('L_DefaultDiv_0');</script>
+</fieldset>
+</div>
+<div class="Enhanced">
+<fieldset>
+<legend><script language="javascript" type="text/javascript">w_help('Font Size');</script></legend>
+<script language="javascript" type="text/javascript">w_fontSize('L_DefaultDiv_0', 0, 24, 8);</script>
+</fieldset>
+</div>									
+<fieldset style="padding: 0px 2px 5px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Font Color');</script></legend>
+<script language="javascript" type="text/javascript">w_colorInp('_L_DefaultDivColorEr', '#333', 7);</script>
+</fieldset>								
+</fieldset>	
+
+<div class="Enhanced">
+<fieldset style="margin-top: 5px; padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Links Color');</script></legend>													
+<fieldset style="padding: 0px 2px 5px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Base', 'Hyperlink Color');</script></legend>
+<script language="javascript" type="text/javascript">w_colorInp('_L_LinkColorEr', '#039', 7);</script>
+<a id="LSideColorCSS_Link"></a>
+</fieldset>						
+<fieldset style="padding: 0px 2px 5px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Hover', 'RollOver Color');</script></legend>
+<script language="javascript" type="text/javascript">w_colorInp('_L_LinkHoverEr', '#06C', 7);</script>
+<a id="LSideColorCSS_Hover"></a>								
+</fieldset>													
+</fieldset>	
+</div>									
+</td></tr></table>																					
+</div></div></div> <!-- psychoed, connected, container -->		
+<script language="javascript" type="text/javascript">
+<!--
+for (var i=0; i<maxBoxNumOnSides; i++)
+w__partDiv('L', i, (i<4));		
+// -->
+</script>		
+</div></div>
+
+<!-- ==================== MainColumn ==================== -->
+<div id="MainColumn" style="width: 75%;  direction: ltr; text-align: left; float: left;">
+<div id="MainColumnInner" style="padding: 12px 20px 20px 20px; border: 1px solid black; background-position: top center; background-color: #F6F6F6;">
+<div class="psychoedContainer" id="ContainerPostsSettings" style="width: 100%; padding: 0px; display: block; margin-bottom: 5px; border: 0px dashed red;">
+<span class="psychoed" id="SHPostsSettings">
+<a id="SHPosts" href="#PsycHo!" onclick="doDuty(this);">Show Posts Schema Settings</a>
+</span>		
+<div id="PostsSetting" class="connected" style="display: none; ">
+<div class="psychoed" style="margin-top: 2px; padding: 4px 10px 8px 10px;">
+<table width="100%"><tr><td>
+<div style="float: left; width: 235px;">
+<fieldset style="padding: 0px 10px 10px 10px">
+<legend><script language="javascript" type="text/javascript">w_help('PostTop\'s Background', 'PostTop\\\'s Background');</script></legend>
+<table cellpadding="0" cellspacing="0" style="line-height: 250%"><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Type', 'Background Type');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_tripleBg('OnePostTop');</script></td>
+</tr></table>
+<script language="javascript" type="text/javascript">w_tripleBgInner('OnePostTop', '#CCC');</script>
+</fieldset>	
+<fieldset style="padding: 0px 10px 8px 10px">
+<legend><script language="javascript" type="text/javascript">w_help('PostBody\'s Background', 'PostBody\\\'s Background');</script></legend>
+<table  cellpadding="0" cellspacing="0" style="line-height: 250%"><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Type', 'Background Type');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_tripleBg('PostBody');</script></td>
+</tr></table>
+<script language="javascript" type="text/javascript">w_tripleBgInner('PostBody', '#EEE');</script>
+</fieldset>		
+<fieldset  style="padding: 0px 10px 9px 10px">
+<legend><script language="javascript" type="text/javascript">w_help('PostBottom\'s Background', 'PostBottom\\\'s Background');</script></legend>
+<table  cellpadding="0" cellspacing="0" style="line-height: 250%"><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Type', 'Background Type');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_tripleBg('OnePostBot');</script></td>
+</tr></table>
+<script language="javascript" type="text/javascript">w_tripleBgInner('OnePostBot', '#CCC');</script>
+</fieldset>
+<div class="Enhanced">						
+<fieldset style="padding-bottom: 3px">
+<legend><script language="javascript" type="text/javascript">w_help('Global Settings', 'Post\\\'s Global Settings');</script></legend>
+<table><tr>
+<td><script language="javascript" type="text/javascript">w_help('Cell Direction', 'Cell Direction');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_doubleDirection('CellDir');</script>	</td>
+</tr><tr>
+<td><script language="javascript" type="text/javascript">w_help('Font Family', 'Font Family');</script>:</td>
+<td><script language="javascript" type="text/javascript">w_fontFamily('OnePostMainDiv');</script></td>
+</tr></table>
+</fieldset>	
+</div>						
+</div>
+<div style="float: left; width: 235px;">
+<fieldset style="padding-bottom: 6px;">
+<legend><script language="javascript" type="text/javascript">w_help('One Post\'s Border', 'One Post\\\'s Border');</script></legend>
+<script language="javascript" type="text/javascript">w_border('OnePost', 'black', 15, 'Enhanced');</script>
+</fieldset>										
+<fieldset style="padding-bottom: 5px;">
+<legend><script language="javascript" type="text/javascript">w_help('Vertical Borders', 'Post Vertical Borders');</script></legend>
+<script language="javascript" type="text/javascript">w_border('VerPost', '#666', 15, 'Enhanced');</script>
+</fieldset>
+<div class="Enhanced">				
+<fieldset style="padding: 0px 10px 9px 10px; margin-top: 2px;" id="IE_Spec_PostVP">	
+<legend><script language="javascript" type="text/javascript">w_help('Vertical Paddings', 'Post Vertical Paddings');</script></legend>
+<table cellpadding="2">
+<tr><td>
+<script language="javascript" type="text/javascript">w_help('Post Body', 'Post Body V-Padding');</script>: 
+</td><td style="padding: 0px 5px">
+<input id="PostBodyVP" size="3" type="text" class="inputText" value="15" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td><td style="padding: 0px 5px"><span style="padding-left: 10px"></span>		
+<script language="javascript" type="text/javascript">w_incDec('PostBodyVP');</script>
+</td></tr>
+<tr><td>
+<script language="javascript" type="text/javascript">w_help('Head &amp; Foot', 'Post HeadFoot V-Padding');</script>:<span style="padding: 0px 10px"></span>
+</td><td style="padding: 0px 5px">
+<input id="PostHeadFootVP" size="3" type="text" class="inputText" value="3" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td><td style="padding: 0px 5px"><span style="padding-left: 10px"></span>
+<script language="javascript" type="text/javascript">w_incDec('PostHeadFootVP');</script>							
+</td></tr></table>
+</fieldset>		
+</div>
+<fieldset style="padding: 2px 10px 7px 10px; margin-top: 2px;" id="IE_Spec_PostHP">	
+<legend><script language="javascript" type="text/javascript">w_help('Horizontal Paddings', 'Post Horizontal Paddings');</script></legend>
+<table cellpadding="2">
+<tr><td>
+<script language="javascript" type="text/javascript">w_help('Post Body', 'Post Body H-Padding');</script>: 
+</td><td style="padding: 0px 5px">
+<input id="PostBodyHP" size="3" type="text" class="inputText" value="25" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td><td style="padding: 0px 5px"><span style="padding-left: 10px"></span>
+<script language="javascript" type="text/javascript">w_incDec('PostBodyHP');</script>
+</td></tr>
+<tr class="Enhanced"><td>
+<script language="javascript" type="text/javascript">w_help('Head &amp; Foot', 'Post HeadFoot H-Padding');</script>:<span style="padding: 0px 10px"></span>
+</td><td style="padding: 0px 5px">
+<input id="PostHeadFootHP" size="3" type="text" class="inputText" value="20" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td><td style="padding: 0px 5px"><span style="padding-left: 10px"></span>
+<script language="javascript" type="text/javascript">w_incDec('PostHeadFootHP');</script>							
+</td></tr></table>
+</fieldset>										
+</div>								
+</td></tr></table>
+</div></div></div>	 <!-- psychoed, connected, container -->
+<div style="clear: both; width:100%; height: 1px; font-size: 1px;">&nbsp;</div>
+<div class="psychoedContainer" id="ContainerPostsThemeSettings" style="width: 100%; padding: 0px; margin-top: 2px; margin-bottom: 5px; border: 0px dashed red;">
+<span class="psychoed" id="SHPostsTSettings">
+<a id="SHPostsT" href="#PsycHo!" onclick="doDuty(this);">Show Posts <span style="padding: 0px 2px 0px 3px;">Theme</span> Settings</a>
+</span>
+<div id="PostsThemeSetting" class="connected" style="display: none; ">
+<div class="psychoed" style="margin-top: 2px;">
+<table width="100%"><tr><td>						
+<div id="OnePostTitleSettingEr" style="float: left; width: 235px;">
+<fieldset style="padding: 0px 5px 0px 10px;">
+<legend><script language="javascript" type="text/javascript">w_help('Title', 'Post Title');</script></legend>
+<table width="100%" ><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Family', 'Font Family');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_fontFamily('OnePostTitle');</script></td>
+</tr><tr>								
+<td width="50"><script language="javascript" type="text/javascript">w_help('Size', 'Font Size');</script>:</td>
+<td width="75"><script language="javascript" type="text/javascript">w_fontSize('OnePostTitle', 0, 24, 8);</script></td>
+<td><script language="javascript" type="text/javascript">w_colorInp('PostTitleColorEr');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Effect', 'Font Effect');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_fontBIU('OnePostTitle', '&nbsp;', 'B  ');</script></td>
+</tr><tr>
+<td><script language="javascript" type="text/javascript">w_help('Direction', 'Title Direction');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_doubleDirection('OnePostTitle');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Align', 'Text Align');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_textAlignTriple('OnePostTitle');</script></td>
+</tr></table>									
+</fieldset>		
+</div>	
+<div id="OnePostDateTopSettingEr" style="float: left; width: 235px;">
+<fieldset style="padding: 0px 5px 4px 10px">
+<legend><script language="javascript" type="text/javascript">w_help('Date', 'Post Date');</script></legend>
+<table><tr>
+<td><span id="DateFormatSelectorText"><script language="javascript" type="text/javascript">w_help('Format', 'Date Format');</script>:</span></td>
+<td colspan="2">
+<input id="DateFormatIsGregorian" name="DateFormat" class="checkBox" type="radio" onclick="doDuty(this);" checked="checked"></input><script language="javascript" type="text/javascript">w_selRadio('DateFormatIsGregorian', 'Gregorian');</script>
+<input id="DateFormatIsHijri" name="DateFormat" class="checkBox" type="radio" onclick="doDuty(this);"></input><script language="javascript" type="text/javascript">w_selRadio('DateFormatIsHijri', 'Hijri');</script>
+</td>
+</tr><tr>								
+<td width="50"><script language="javascript" type="text/javascript">w_help('Size', 'Font Size');</script>:</td></td>
+<td width="75"><script language="javascript" type="text/javascript">w_fontSize('OnePostDateTop', 0, 24, 8);</script></td>
+<td><script language="javascript" type="text/javascript">w_colorInp('PostDateColorEr');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Effect', 'Font Effect');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_fontBIU('OnePostDateTop', '&nbsp;');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Stay', 'Date Standing Format');</script>:</td>
+<td colspan="2">
+<input id="PostDateStandingIsAdjacent" name="PostDateStanding" class="checkBox" type="radio" 	onclick="doDuty(this);" checked="checked" ></input><script language="javascript" type="text/javascript">w_selRadio('PostDateStandingIsAdjacent', 'Adjacent');</script>
+<input id="PostDateStandingIsSingle" name="PostDateStanding" class="checkBox" type="radio" onclick="doDuty(this);"></input><script language="javascript" type="text/javascript">w_selRadio('PostDateStandingIsSingle', 'Single');</script>
+</td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Align', 'Text Align');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_textAlignTriple('OnePostDateTop', 'R');</script></td>									
+</tr></table>
+</fieldset>
+</div>								
+</td></tr><tr><td>
+<div id="OnePostPostBodySettingEr" style="float: left; width: 235px;">							
+<fieldset style="padding: 0px 5px 6px 10px">
+<legend><script language="javascript" type="text/javascript">w_help('Post Body');</script></legend>
+<table width="100%"><tr>
+<td width="50"><script language="javascript" type="text/javascript">w_help('Size', 'Font Size');</script>:</td>
+<td width="75"><script language="javascript" type="text/javascript">w_fontSize('OnePostMidPart', 0, 24, 8);</script></td>
+<td><script language="javascript" type="text/javascript">w_colorInp('PostBodyColorEr');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Effect', 'Font Effect');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_fontBIU('OnePostMidPart', '&nbsp;');</script></td>
+</tr><tr class="Enhanced">													
+<td><script language="javascript" type="text/javascript">w_help('Align', 'Post Body Text Align');</script>:</td>
+<td colspan="2">
+<div id="OnePostBodyAlignTripleContainer" style="direction: ltr;">
+<input id="OnePostBodyAlignIsNorm" name="OnePostBodyAlign" class="checkBox" type="radio" style="display: none" onclick="doDuty(this);" checked="checked">
+<script language="javascript" type="text/javascript">w_selRadio('OnePostBodyAlignIsNorm', '<img width="18" height="18" src="barimg/i_align_left.gif" alt="N" id="OnePostBodyAlignIsNormErImg" style="border: 1px solid #EEE;" />', 'Normal', true);	</script>
+&nbsp;&nbsp;
+<input id="OnePostBodyAlignIsCenter" name="OnePostBodyAlign" class="checkBox" type="radio" style="display: none" onclick="doDuty(this);"></input>
+<script language="javascript" type="text/javascript">w_selRadio('OnePostBodyAlignIsCenter', '<img width="18" height="18" src="barimg/i_align_center.gif" alt="C" id="OnePostBodyAlignIsCenterErImg" style="border: 1px solid #EEE;" />', 'Center', true);	</script>
+&nbsp;&nbsp;
+<input id="OnePostBodyAlignIsJustify" name="OnePostBodyAlign" class="checkBox" type="radio" style="display: none" onclick="doDuty(this);"></input>
+<script language="javascript" type="text/javascript">w_selRadio('OnePostBodyAlignIsJustify', '<img width="18" height="18" src="barimg/i_align_justify.gif" alt="J" id="OnePostBodyAlignIsJustifyErImg" style="border: 1px solid #EEE;" />', 'Justify', true);	</script>
+</div>
+</td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('L Height', 'Line Height');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_lineHeight('OnePostMidPart');</script></td>
+</tr></table>
+</fieldset>
+</div>
+<div id="OnePostCommentingSettingEr" style="float: left; width: 235px;">
+<fieldset style="padding: 0px 5px 6px 10px">
+<legend><script language="javascript" type="text/javascript">w_help('Comments', 'Post Comments');</script></legend>
+<table width="100%"><tr>
+<td width="50"><script language="javascript" type="text/javascript">w_help('Size', 'Font Size');</script>:</td>
+<td width="75"><script language="javascript" type="text/javascript">w_fontSize('OnePostComments', 0, 24, 8);</script></td>
+<td><script language="javascript" type="text/javascript">w_colorInp('PostCommentsColorEr', '#333');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Effect', 'Font Effect');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_fontBIU('OnePostComments', '&nbsp;');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Align', 'Text Align');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_textAlignTriple('OnePostCommentsPart', 'R');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Hover', 'RollOver Color');</script>:</td>
+<td colspan="2"><span style="padding-left: 5px"></span><script language="javascript" type="text/javascript">w_colorInp('PostCommentsHoverColorEr', '#36F', 7);</script></td>
+</tr></table>
+</fieldset>
+</div>
+</td></tr><tr><td>
+<div id="OnePostPermLinkSettingEr" style="float: left; width: 235px;">							
+<fieldset style="padding: 0px 5px 5px 10px">
+<legend><script language="javascript" type="text/javascript">w_help('Permanent Link', 'Post Permanent Link');</script></legend>
+<table width="100%"><tr>
+<td width="50"><script language="javascript" type="text/javascript">w_help('Size', 'Font Size');</script>:</td>
+<td width="75"><script language="javascript" type="text/javascript">w_fontSize('OnePostPermLink', 0, 24, 8);</script></td>
+<td><script language="javascript" type="text/javascript">w_colorInp('PostPermLinkColorEr', '#333');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Effect', 'Font Effect');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_fontBIU('OnePostPermLink', '&nbsp;', ' I ');</script></td>
+</tr><tr>						
+<td><script language="javascript" type="text/javascript">w_help('Text', 'Permanent Link Expression');</script>:</td>
+<td colspan="2">
+<span style="padding-left: 3px"></span>
+<input id="PermLinkExp" type="text" class="inputText" size="15" value="Written at $TIME by $AUTH." onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+</td>
+</tr></table>
+</fieldset>
+</div><div id="OnePostPostSepSettingEr" style="float: left; width: 235px;">
+<fieldset style="padding: 0px 5px 7px 10px">
+<legend><script language="javascript" type="text/javascript">w_help('Post Separator');</script></legend>
+<table width="100%"><tr>
+<td width="50"><script language="javascript" type="text/javascript">w_help('Height', 'Post Separator Height');</script>:</td>
+<td width="40"><span style="padding-left: 5px"></span><input id="PostSepHeight" size="3" type="text" class="inputText" value="20" onkeyup="doDuty(this);" onclick="doDuty(this);"></input></td>
+<td><script language="javascript" type="text/javascript">w_incDec('PostSepHeight');</script></td>
+</tr><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_help('Type', 'Background Type');</script>:</td>
+<td colspan="2"><script language="javascript" type="text/javascript">w_tripleBg('PostSepDiv');</script></td>
+</tr><tr>
+<td colspan="3">
+<script language="javascript" type="text/javascript">w_tripleBgInner('PostSepDiv', 'black', '18');</script>
+</td>	
+</tr></table>
+</fieldset>				
+</div>						
+</td></tr></table>
+</div></div></div>
+<div id="OnePostContainer">		
+<div id="OnePostMainDiv" style="border: 1px solid black; background-position: top center; direction: ltr; text-align: left;">
+<div id="OnePostTopPart" style="background-position: top center; padding: 3px 20px; background-color: #CCC; border: 0px solid #666; border-bottom-width: 1px;">
+<div id="OnePostDateTop" style="float: right; width: 50%; padding-top: 3px; text-align: right; color: black;"></div>
+<div id="OnePostTitle" style="float: right; width: 50%; padding-top: 3px; text-align: left; font-weight: bold; color: black;">
+Viva PsycHo!
+</div>
+<div id="OnePostTopClearer" style="clear: both; font-size: 3px">&nbsp;</div>
+</div>
+<div style="width: 100%">
+<div id="OnePostMidPart" style="padding: 15px 25px; background-position: top center; line-height: 150%; color: black; ">
+<a href="http://psyc.horm.org">Psycho</a> is, in fact, an exclusive weblog template designer; because it helps you to<br />
+<ul style="margin: 0px;">
+<li>Create your ever-wished template in less than 10 minutes!</li>
+<li>Walk on the edges of template design without any HTML knowledge!</li>
+<li>Have W3C valid XHTML template: Higher ranking in search engines and more hits!</li>
+<li>Fix the browser's incompatibility: Nobody will see garbages in your blog!</li>
+<li>Accelerate the loading time and style of your page: Using div tags instead of tables helps your page to load the posts word-by-word, so the visitors won't nap while loading!</li>
+<li>Have CSS-Based template: The page can never be lighter and cleaner than it!</li>
+<li>Always be capable to modify and share your template easily: Save the PsycHodrama!</li>						
+</ul>
+Also, PsycHo is
+<ul style="margin: 0px;">
+<li>An Open-Source project: You can read and even modify thousand lines
+of its javascript codes under terms of <a href="http://www.gnu.org/licenses/gpl.htm" title="GNU's General Public License">GPL</a>.</li>
+<li>Absolutely free of charge: You don't need to pay for anything!</li>
+<li>Based on a single DHTML page: No submission or lag it has!</li>
+<li>Working offline: Just get the page and hang the connection up; it works yet!</li>
+<li>Supporting latest features of providers: Keep your template always updated!</li>
+<li>Using particular help for options: You will never be trapped among choices!</li>
+</ul>
+Note: As PsycHo's generated templates have absolutely no warranty and also
+<a href="http://i.horm.org" title="Author of Psycho">Aideen</a> is not responsible for them, 
+it's strongly recommended to
+get a backup of your current template before pasting new code and you won't lose anything! ;-)<br />
+<!--
+<br />
+PS. I just wanted to appreciate all th<a href="http://utf-8.blogspot.com">e</a><a href="about:black#A">e</a><a href="about:black#B">e</a><a href="about:blank#C">e</a><a href="about:blank#CC">e</a>se
+people; whom without their helps and affects, PsycHo could never be done.
+-->
+</div>					
+</div>
+<div id="OnePostBotPart" style="background-position: top center; padding: 3px 20px; background-color: #CCC; border: 0px solid #666; border-top-width: 1px;">
+<div id="OnePostPermLinkPart" style="float: left; width: 50%; padding-top: 3px; text-align: left; font-style: italic;">
+<a href="#" id="OnePostPermLink" style="color: #333;" title="Permanent Link"></a>
+<script language="javascript" type="text/javascript">doDuty(dg('PermLinkExp')); </script>
+</div>
+<div id="OnePostCommentsPart" style="float: left; width: 50%; padding-top: 3px; text-align: right; color: #36F;">
+<a id="OnePostComments" href="javascript: void(0);" style="color: #333; "
+onmouseover="this.style.color = dg('PostCommentsHoverColorEr').value" 
+onmouseout="this.style.color = dg('PostCommentsColorEr').value">No Comments Yet</a>
+</div>
+<div id="OnePostBotClearer" style="clear: both; font-size: 3px">&nbsp;</div>
+</div>
+</div>
+<div id="PostSepDiv" style="height: 20px; background-position: top center; ">
+<div id="PostSepDivInner" style="margin-bottom: 10px; height: 10px; border-bottom: 1px solid black; background-position: top center; "></div>
+</div>			
+</div>
+</div></div> <!-- main, inner -->
+
+<!-- ==================== SideRColumn ==================== -->
+<div class="SideBarDivR" id="SideRColumn" style="width: 23%; direction: ltr; text-align: left; float: left; margin-left: 1.5%;" >
+<div id="SideRColumnInner" style="padding: 15px 15px 15px 15px; border: 1px solid black; background-position: top center; background-color: #999;">
+<div class="psychoedContainer" id="ContainerSideRSettings" style="display: block; margin-bottom: 5px; border: 0px dashed red;">
+<span class="psychoed" id="SHSideRSettings">
+<a id="SHSideR" href="#PsycHo!" onclick="doDuty(this);">Show R-Side Schema</a>
+</span>
+<div id="SideRSchema" class="connected" style="display: none; ">
+<div class="psychoed" style="margin-top: 2px; padding: 0px 2px 5px 3px;">
+<table width="100%"><tr><td>
+<fieldset style="padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Part Schema', 'Parts Schema');</script></legend>
+<fieldset style="padding-bottom: 1px">
+<legend><script language="javascript" type="text/javascript">w_help('Background');</script></legend>
+<table><tr class="Enhanced">
+<td><script language="javascript" type="text/javascript">w_sideTripleBg('_R_DefaultDiv');</script></td>
+</tr><tr>
+<td colspan="3">
+<script language="javascript" type="text/javascript">w_sideTripleBgInner('_R_DefaultDiv', '#CCC');</script>
+</td>	
+</tr></table>									
+</fieldset>										
+<fieldset style="padding-bottom: 1px">
+<legend><script language="javascript" type="text/javascript">w_help('Border');</script></legend>
+<script language="javascript" type="text/javascript">w_sideBorder('_R_Default', '#666');</script>
+</fieldset>								
+</fieldset>
+
+<fieldset style="margin-top: 5px; padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Part Separator', 'Parts Separator');</script></legend>
+<fieldset>
+<legend><script language="javascript" type="text/javascript">w_help('Height', 'Separator Height');</script></legend>
+<span style="padding-left: 2px"></span>									
+<input id="_R_PartSepHeight" size="3" type="text" class="inputText" value="30" onkeyup="doDuty(this);" onclick="doDuty(this);"></input>
+<span style="padding-left: 5px"></span>
+<script language="javascript" type="text/javascript">w_incDec('_R_PartSepHeight');</script>
+</fieldset>			
+<fieldset>
+<legend><script language="javascript" type="text/javascript">w_help('Sep. Line', 'Separator Line');</script></legend>
+<script language="javascript" type="text/javascript">w_sideBorder('_R_Sep', 'black'); </script>
+</fieldset>								
+</fieldset>		
+
+<div class="Enhanced">
+<fieldset style="margin-top: 5px; padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Parts Appearance');</script></legend>							
+<fieldset style="padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Parts Font', 'Font Family');</script></legend>													
+<span style="padding-left: 5px"></span><script language="javascript" type="text/javascript">w_fontFamily('R_PartDiv_0');</script>
+</fieldset>
+<fieldset style="padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Line Height');</script></legend>													
+<span style="padding-left: 12px"></span><script language="javascript" type="text/javascript">w_lineHeight('_R_PartDiv');</script>
+</fieldset>
+</fieldset>								
+</div>					
+</td></tr></table>							
+
+</div></div></div> <!-- psychoed, connected, container -->	
+<div class="psychoedContainer" id="ContainerSideRThemeSettings" style="padding: 0px; margin-top: 8px; margin-bottom: 5px; border: 0px dashed red;">
+<span class="psychoed" id="SHSideRTSettings">
+<a id="SHSideRT" href="#PsycHo!" onclick="doDuty(this);">Show R-Side Theme</a><span style="padding-right: 5px"></span>
+</span>
+<div id="SideRTheme" class="connected" style="display: none; ">
+<div class="psychoed" style="margin-top: 2px; padding: 0px 2px 5px 3px;">
+<table width="100%"><tr><td>											
+<fieldset style="padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Parts Title', 'Parts Title');</script></legend>													
+<fieldset style="padding: 0px 0px 5px 4px;">
+<legend><script language="javascript" type="text/javascript">w_help('Title Font', 'Font');</script></legend>
+<table>
+<tr class="Enhanced"><td>	<span style="padding-left: 0px"></span><script language="javascript" type="text/javascript">w_fontSize('R_Title_0', 0, 24, 8);</script></td></tr>
+<tr><td>	<span style="padding-left: 5px"></span><script language="javascript" type="text/javascript">w_colorInp('_R_TitleColorEr', 'black', 7);</script></td></tr>
+<tr class="Enhanced"><td>&nbsp;<script language="javascript" type="text/javascript">w_fontBIU('R_Title_0', ' ', 'B  ', 'BIU');</script></td></tr>
+</table>
+</fieldset>		
+<fieldset style="padding: 0px 2px 5px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Underline', 'Separator Line Color');</script></legend>
+<script language="javascript" type="text/javascript">w_colorInp('_R_TitleUnderlineEr', '#333', 7);</script>
+</fieldset>					
+</fieldset>
+<fieldset style="margin-top: 5px; padding: 0px 2px 5px 2px;">							
+<legend><script language="javascript" type="text/javascript">w_help('Parts Text', 'Parts Text');</script></legend>			
+<div class="Enhanced">
+<fieldset style="padding-bottom: 0px;">
+<legend><script language="javascript" type="text/javascript">w_help('Text align');</script></legend>
+<script language="javascript" type="text/javascript">w_sideTextAlignTriple('R_DefaultDiv_0');</script>
+</fieldset>
+</div>
+<div class="Enhanced">
+<fieldset>
+<legend><script language="javascript" type="text/javascript">w_help('Font Size');</script></legend>
+<script language="javascript" type="text/javascript">w_fontSize('R_DefaultDiv_0', 0, 24, 8);</script>
+</fieldset>
+</div>								
+<fieldset style="padding: 0px 2px 5px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Font Color');</script></legend>
+<script language="javascript" type="text/javascript">w_colorInp('_R_DefaultDivColorEr', '#333', 7);</script>
+</fieldset>								
+</fieldset>	
+
+<div class="Enhanced">
+<fieldset style="margin-top: 5px; padding: 0px 2px 5px 2px;">
+<legend><script language="javascript" type="text/javascript">w_help('Links Color');</script></legend>													
+<fieldset style="padding: 0px 2px 5px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Base', 'Hyperlink Color');</script></legend>
+<script language="javascript" type="text/javascript">w_colorInp('_R_LinkColorEr', '#039', 7);</script>
+<a id="RSideColorCSS_Link"></a>
+</fieldset>		
+<fieldset style="padding: 0px 2px 5px 8px;">
+<legend><script language="javascript" type="text/javascript">w_help('Hover', 'RollOver Color');</script></legend>
+<script language="javascript" type="text/javascript">w_colorInp('_R_LinkHoverEr', '#06C', 7);</script>
+<a id="RSideColorCSS_Hover"></a>									
+</fieldset>													
+</fieldset>	
+</div>
+</td></tr></table>
+</div></div></div> <!-- psychoed, connected, container -->						
+<script language="javascript" type="text/javascript">
+<!--
+for (var i=0; i<maxBoxNumOnSides; i++)
+w__partDiv('R', i, (i<4));		
+// -->
+</script>
+</div>	
+</div>
+<div style="clear: both; height: 1px;"></div>	
+<script language="javascript" type="text/javascript">			
+<!--
+var d1 = new Date();
+var side = new Array('R', 'L');
+for (var s=0; s<2; s++) {
+ClearBox(side[s], '0');		
+ClearBox(side[s], '1');		
+ClearBox(side[s], '2');		
+ClearBox(side[s], '3');
+AddTitleToBox(side[s], '0', '');
+AddTitleToBox(side[s], '1', 'Archive');
+AddTitleToBox(side[s], '2', 'Friends');
+AddTitleToBox(side[s], '3', 'Etc');
+InsertLinkToBox(side[s], '0', '0', 'Home', '$HOME', 'First Page', 1);
+InsertLinkToBox(side[s], '0', '1', 'Email', '$EMAIL', 'Mail me!', 1);
+InsertLinkToBox(side[s], '0', '2', 'RSS', '$RSS', 'RSS Feed', 1);			
+InsertLinkToBox(side[s], '1', '0', '$ARCHIVE', ' ', '', 1);				
+InsertLinkToBox(side[s], '2', '0', 'Horm', 'http://blog.horm.org', 'Hallucinations Of Reabsorbed Mind', 1);
+InsertLinkToBox(side[s], '2', '1', 'Phorm', 'http://p.horm.org', 'Another Phormation', 1);
+InsertLinkToBox(side[s], '3', '0', '<img src="http://psyc.horm.org/barimg/bar_psycho.png" width="80" height="15" alt="PsycHo: Free Template Generator" style="border: 0px solid black" />', '$PSYCHO', 'PsycHo: Free Template Generator', 1);	
+InsertLinkToBox(side[s], '3', '1', '<img src="http://psyc.horm.org/barimg/bar_firefox.png" width="80" height="15" alt="Get FireFox!" style="border: 0px solid black" />', 'http://www.mozilla.org/products/firefox/', 'Get Firefox!', 1);	
+InsertLinkToBox(side[s], '3', '2', '<img src="http://psyc.horm.org/barimg/bar_xhtml.png" width="80" height="15" alt="XHTML Validator" style="border: 0px solid black" />', 'http://validator.w3.org/check/referer', 'XHTML Validator', 1);	
+for (var part=0; part<4; part++)
+dg('_'+side[s]+'_linkNumForce_'+part).value = LinkLengthOnBoxByFor(side[s], part);
+}
+dg('_R_boxNumForce').value = BoxLengthByFor('R');
+dg('_L_boxNumForce').value = BoxLengthByFor('L');		
+
+var d2 = new Date();			
+var v1 = (d1.getMinutes()*60*1000+d1.getSeconds()*1000+d1.getMilliseconds());
+var v2 = (d2.getMinutes()*60*1000+d2.getSeconds()*1000+d2.getMilliseconds());				
+//				alert((v2-v1));
+// -->
+</script>	
+
+</div>
+<!-- ==================== Footer ==================== -->
+<center><div style="clear: both; height: 1px; border-top: 3px double #333; text-align: center; width: 480px;">
+<br />	
+<a href="http://psyc.horm.org" title="PsycHo: Free Template Generator">
+<img width="80" height="15" src="barimg/bar_psycho.png"  />
+</a>
+<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fpsyc.horm.org" title="Valid XHTML">
+<img width="80" height="15" src="barimg/bar_xhtml.png" />
+</a>
+<a href="http://www.pagerank.net/pagerank-checker/" title="Pagerank Checker">
+<img width="80" height="15" src="barimg/bar_pagerank.png" />
+</a>
+<br />
+<a href="http://www.spreadfirefox.com/" title="Get Firefox!">
+<img width="80" height="15" src="barimg/bar_firefox.png" />
+</a>
+<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://psyc.horm.org/mypsyc.css" title="Valid CSS">
+<img width="80" height="15" src="barimg/bar_css.png" />
+</a>
+<a href="http://www.technorati.com/search/psyc.horm.org" title="Links to PsycHo">
+<img width="80" height="15" src="barimg/bar_technorati.png" />
+</a>
+<!--		
+<img src="_cc.gif" />  
+<img src="_nedstat.gif" />
+-->
+<br />
+<div id="CopyRightDiv" style="padding: 5px 0px 15px 0px">
+<a href="http://psyc.horm.org" title="Free Template Generator">PsycHo</a> 
+is written by 
+<a href="http://i.horm.org" title="Aideen's homepage">Aideen</a>
+and is under 
+<a href="http://www.gnu.org/licenses/gpl.html" title="GNU's General Public License">GPL</a>.
+</div>
+</div></center>
+</div>		
+</form>
+</center>		
+</body>
+</html>	
+
