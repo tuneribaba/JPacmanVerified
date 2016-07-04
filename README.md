@@ -1,1 +1,1 @@
-Group 14
+JPacmanVerified - Test quality management on JPacman game.
